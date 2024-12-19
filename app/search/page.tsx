@@ -35,7 +35,7 @@ export default function SearchPage() {
       <form onSubmit={handleSearch} className="flex gap-4 mb-8">
         <Input
           type="text"
-          placeholder="Search recipes..."
+          placeholder="Search recipes here..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="max-w-md"
